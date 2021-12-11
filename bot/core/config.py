@@ -67,7 +67,7 @@ class Global(BaseSettings):
     dev_guild_ids: list[int] = []
     guild_ids: list[int]
 
-    api_url: str = ""
+    api_url: str = "http://localhost:8080/api/v1/"
     channel_id: str = ""
 
     debug: bool = False
