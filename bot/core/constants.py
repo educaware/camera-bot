@@ -28,6 +28,7 @@ class Emojis(BaseModel):
     arrow_right = "\u27A1"  # ➡
     lock = "\U0001F512"  # 🔒
     partying_face = "\U0001F973"  # 🥳
+    smiling_imp = "\U0001F608"  # 😈
     track_next = "\u23ED"  # ⏭
     track_previous = "\u23EE"  # ⏮
 

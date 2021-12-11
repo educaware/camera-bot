@@ -20,6 +20,8 @@ class Bot(commands.Bot, ABC):
     def __init__(self, **kwargs):
         """Initiate the client with slash commands."""
         super().__init__(**kwargs)
+        self.connected_client = None
+
         log.debug("Starting the HTTP session")
         self.http_session = ClientSession(
             connector=TCPConnector(resolver=AsyncResolver(), family=socket.AF_INET),

@@ -67,6 +67,9 @@ class Global(BaseSettings):
     dev_guild_ids: list[int] = []
     guild_ids: list[int]
 
+    api_url: str = ""
+    channel_id: str = ""
+
     debug: bool = False
 
     @validator("guild_ids", "dev_guild_ids")
