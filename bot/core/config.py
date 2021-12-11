@@ -30,13 +30,6 @@ class Client(BaseSettings):
     name: str = "Bot"
     token: str
 
-    @validator("token")
-    def check_token_format(cls, v: str) -> str:
-        """Validate discord tokens format."""
-        pattern = re.compile(r"\w{24}\.\w{6}\.\w{27}")
-        assert pattern.fullmatch(v), f"Discord token must follow >> {pattern.pattern} << pattern."
-        return v
-
     class Config:
         """The Pydantic settings configuration."""
 
