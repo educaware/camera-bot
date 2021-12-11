@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/rmenai/camera-bot">
+  <a href="https://github.com/educaware/camera-bot">
     <img src="https://avatars.githubusercontent.com/u/89700626?v=4&s=160" alt="Logo" width="80" height="80">
   </a>
 
@@ -9,14 +9,14 @@
   <p align="center">
     Awesome camera-bot created by rmenai
     <br />
-    <a href="https://github.com/rmenai/camera-bot"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/educaware/camera-bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rmenai/camera-bot">View Demo</a>
+    <a href="https://github.com/educaware/camera-bot">View Demo</a>
     ·
-    <a href="https://github.com/rmenai/camera-bot/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/educaware/camera-bot/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/rmenai/camera-bot/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/educaware/camera-bot/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -57,7 +57,7 @@ Awesome camera-bot created by rmenai.
 The first step will be to clone the repo
 
 ```shell
-git clone https://github.com/rmenai/camera-bot.git
+git clone https://github.com/educaware/camera-bot.git
 ```
 
 ### Using Docker
@@ -106,10 +106,10 @@ poetry run task start
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/rmenai/camera-bot/blob/main/CONTRIBUTING.md) for ways to get started.
+See [CONTRIBUTING.md](https://github.com/educaware/camera-bot/blob/main/CONTRIBUTING.md) for ways to get started.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/rmenai/camera-bot/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/educaware/camera-bot/blob/main/LICENSE) for more information.
